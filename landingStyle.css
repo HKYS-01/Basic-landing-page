@@ -1,0 +1,104 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    text-align: center;
+}
+
+header{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;    
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+.padre{
+    align-items: center;
+    /*border-bottom: 2px solid rgba(129, 129, 129, 0.192);*/
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.151);   
+}
+
+.div_hijo{
+    display: flex;        
+    width: 400px;
+    height: 150px;
+    text-align: start;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;   
+}
+
+div img{
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.boton_correo{
+    color: white;
+    text-decoration: none;    
+    border-radius: 8px;   
+    align-items: center;
+    font-weight: 500;
+    font-size: small;   
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    background-color: rgba(54, 7, 92, 0.705);
+}
+
+span{
+    font-family: cursive;
+    font-size: small;
+    color: rgb(121, 121, 121);
+}
+
+h1{
+    font-weight: 400;
+    font-size: 40px;
+    font-family: fantasy;
+    color: rgba(5, 150, 0, 0.705);
+}
+
+h2{
+    font-family: monospace;
+}
+
+h5{
+    font-family: monospace;
+    font-weight: lighter;
+    color: rgb(121, 121, 121);
+}
+
+.link_titulo{
+    color: black;
+    font-size: small;
+    font-family: monospace;
+}
+
+div p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
